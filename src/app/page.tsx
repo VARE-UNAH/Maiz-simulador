@@ -11,11 +11,20 @@ export default function Home() {
       /> */}
       <Card isFooterBlurred className="w-full h-auto col-span-12 sm:col-span-7 rounded-none">
         <CardHeader className="absolute z-10 top-1 flex-col items-center rounded-none pt-6">
-          <h4 className="text-orange-700 font-extrabold text-3xl">Reg</h4>
+          <Avatar src="/images/maiz/maiz.jpg" className="w-20 h-20 text-large" />
+          <p className="text-2xl text-green-800 uppercase font-extrabold">SIMULADOR</p>
+          <h4 className="text-orange-700 font-extrabold text-3xl">CRECIMIENTO DE MAIZ</h4>
+          <Image
+            aria-hidden
+            src="https://nextjs.org/icons/file.svg"
+            alt="File icon"
+            width={16}
+            height={16}
+          />
           <Link href="/probar">
-          <Button className="mt-35 rounded-lg bg-orange-600 text-white font-extrabold">
-            INICIAR SIMULADOR
-          </Button>
+            <Button className="mt-35 rounded-lg bg-orange-600 text-white font-extrabold">
+              INICIAR SIMULADOR
+            </Button>
           </Link>
         </CardHeader>
         <Image
